@@ -1,7 +1,3 @@
-Here is a clean, straightforward version of your blog post, with no emojis or unnecessary fluff:
-
----
-
 # Turn a PS2 Joystick into a Mouse Using Arduino and Python (Linux)
 
 This guide shows how to use a PS2 joystick and Arduino Uno to control your Linux system’s mouse. The joystick moves the cursor, and the press button performs left or right clicks.
@@ -24,8 +20,15 @@ Upload the following sketch to your Arduino using the Arduino IDE:
 
 ```cpp
 const int xPin = A0;
+
+
 const int yPin = A1;
+
+
+
 const int buttonPin = 7;
+
+
 
 void setup() {
   pinMode(buttonPin, INPUT_PULLUP);
@@ -245,3 +248,9 @@ ACCELERATION = 1.5
 ```
 
 Adjust them to change sensitivity and speed.
+
+
+
+
+
+
